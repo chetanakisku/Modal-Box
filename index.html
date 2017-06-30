@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Modal Box</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./modal-style.css">
+</head>
+
+<body>
+    <h2>Modal Box</h2>
+
+    <!--Button which opens the modal box-->
+    <button class="modal-btn" id="modalBtn">Open Modal</button>
+
+    <!--Modal Box-->
+    <div class="modal-container" id="modalContainer">
+        <!--Modal Box Content-->
+        <div class="modal-content">
+            <!--Header Content of Modal-->
+            <div class="modal-header">
+                <span class="modal-close" id="closeBtn">&times</span>
+            </div>
+            <!--Body Content of Modal-->
+            <div class="modal-body">
+                <p class="para">This is paragraph.</p>
+                <p class="para">Content for the modal.</p>
+            </div>
+            <!--Footer Content of Modal-->
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+
+    <script src="./modalScript.js"></script>
+</body>
+
+</html>
